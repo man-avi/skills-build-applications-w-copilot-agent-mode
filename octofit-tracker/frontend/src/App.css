@@ -1,0 +1,143 @@
+.App {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(13, 110, 253, 0.18), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(102, 16, 242, 0.14), transparent 25%),
+    linear-gradient(180deg, #f6f8ff 0%, #eef2ff 45%, #dce7ff 100%);
+  color: #1f2a44;
+}
+
+body {
+  background: transparent;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0d6efd 0%, #6610f2 100%) !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #ffffff !important;
+}
+
+.brand-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 4px;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.card {
+  border: 1px solid rgba(13, 110, 253, 0.14);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.card-header {
+  background-color: rgba(13, 110, 253, 0.06);
+  border-bottom: 1px solid rgba(13, 110, 253, 0.12);
+}
+
+.card-title,
+.card-header h2,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0d3ea8;
+}
+
+.card-text,
+p,
+small,
+.table td,
+.table th {
+  color: #26374b;
+}
+
+.table {
+  margin-bottom: 0;
+  border-radius: 1rem;
+  background: #ffffff;
+}
+
+.table thead th {
+  border-bottom: 2px solid rgba(13, 110, 253, 0.18);
+  background-color: rgba(13, 110, 253, 0.08);
+  color: #0b1c4c;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(13, 110, 253, 0.08);
+}
+
+.table-responsive {
+  box-shadow: 0 0.75rem 1.75rem rgba(108, 117, 125, 0.12);
+  border-radius: 1rem;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  border-radius: 2rem;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  background: #0a58ca;
+  border-color: #0a58ca;
+}
+
+.btn-link {
+  color: #6610f2;
+}
+
+.btn-link:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+a {
+  color: #0d6efd;
+}
+
+a:hover {
+  color: #6610f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0d3ea8;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.modal-backdrop.show {
+  opacity: 0.4;
+}
+
+.text-muted {
+  color: #5e6c84 !important;
+}
