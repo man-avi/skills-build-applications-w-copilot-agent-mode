@@ -130,7 +130,7 @@ function Workouts() {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={headers.length}>No workouts found.</td>
+                    <td colSpan={headers.length}>✖️ No workouts found.</td>
                   </tr>
                 )}
               </tbody>
